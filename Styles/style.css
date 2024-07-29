@@ -19,13 +19,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .navbar a{
     text-decoration: none;
     color: white;
-    margin: 0px 20px;
-    font-size: 20px;
+    margin-right: 40px;
+    font-size: 18px;
 }
 .nav-title{
     color: tomato;
@@ -39,12 +39,9 @@
     font-weight: bold;
 }
 .homebar{
-    /* border: 1px solid rgb(98, 94, 94);
-    height: 40px;
-    border-radius: 20px;
-    margin-top: 40px; */
-    /* box-shadow: 5px white; */
-    
+    border: 1px solid rgb(48, 47, 47);
+    padding: 8px 0px;
+    border-radius: 30px; 
 }
 /* banner style  */
 .section-1{
@@ -145,4 +142,52 @@
     height: 280px;
     border-radius: 20px;
     margin-top: 50px;
+}
+
+/* section-4 style  */
+.section-4{
+    text-align: center;
+}
+.section-4-title{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 57.6px;
+}
+.section-4-description{
+    color: darkgray;
+    width: 50%;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+.section-4-style{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 150px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: rgb(28, 28, 28);
+}
+.section-4-images{
+    position: relative;
+}
+.section-4-img-t{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+.section-4-img-t1{
+    position: absolute;
+    top: 83%;
+    left: 5%;
+    color: darkgray;
+    font-size: 12px;
+}
+.section-4-images img{
+    width: 280px;
+    height: 230px;
+    border-radius: 20px;
+    filter: brightness(80%);
+    margin-left: 5px;
 }
