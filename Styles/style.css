@@ -68,9 +68,11 @@
 .button{
     background-color: tomato;
     padding: 15px 40px;
+    width: 180px;
     color: white;
     border-radius: 30px;
     border: none;
+    font-size: 13px;
     font-weight: bolder;
     margin-right: 20px;
 }
@@ -96,6 +98,7 @@
     width: 50%;
     margin-left: 300px;
     margin-bottom: 50px;
+    font-size: 14px;
 }
 .section-2-images{
     display: flex;
@@ -111,4 +114,35 @@
 }
 .section-2-img-dc{
     color: darkgray;
+    font-size: 12px;
+}
+
+/* section-3 style  */
+.section-3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 100px;
+   background-color: rgb(35, 34, 34);
+   margin: 50px 140px;
+   padding: 0px 0px 30px 0px;
+   border-radius: 20px;
+}
+.section-3-title{
+    width: 300px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 57.6px;
+}
+.section-3-description{
+    color: darkgray;
+    font-size: 13px;
+    width: 400px;
+    line-height: 20px;
+}
+.section-3-img img{
+    width: 350px;
+    height: 280px;
+    border-radius: 20px;
+    margin-top: 50px;
 }
