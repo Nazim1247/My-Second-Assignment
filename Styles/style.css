@@ -541,10 +541,8 @@ table td{
     table td{
         font-size: 100%;
     }
-    .form-box{
-        width: 50%;
-    }
     .form-box input{
+        width: 90%;
         height: 35px;
         font-size: 20px;
     }
