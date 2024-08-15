@@ -21,26 +21,30 @@
     color: white;
 }
 /* navbar style */
+header{
+    background: linear-gradient(90deg, black,#b2beb52e, black);
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: 50px auto;
+    margin: 0 auto;
+    padding: 50px;
 }
 nav a{
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     margin-right: 40px;
     font-size: 18px;
 }
 nav h3{
-    color: tomato;
+    color: rgba(230, 83, 60, 1);
     font-style: italic;
     font-size: 30px;
 }
 .home{
-    background-color: tomato;
+    background-color: rgba(230, 83, 60, 1);
     padding: 6px 18px;
     border-radius: 20px;
     font-weight: bold;
@@ -61,7 +65,6 @@ nav h3{
     gap: 70px;
     margin: 0 auto;
     width: 80%;
-    /* background: linear-gradient(90deg, rgb(223, 216, 216), #d9deda); */
 }
 .banner-img{
     position: relative;
@@ -79,11 +82,11 @@ nav h3{
 }
 .banner-content p{
     font-size: 13px;
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     line-height: 20px;
 }
 .button{
-    background-color: tomato;
+    background-color: rgba(230, 83, 60, 1);
     padding: 15px 40px;
     width: 180px;
     color: white;
@@ -125,7 +128,7 @@ nav h3{
     line-height: 60px;
 }
 .card p, .card-2 p{
-    color: rgb(206, 198, 198);
+    color: rgba(255, 255, 255, 0.65);
     font-size: 12px;
     font-weight: 400;
     line-height: 0px;
@@ -150,7 +153,7 @@ nav h3{
 .ball{
     width: 35px;
     height: 35px;
-    background-color: tomato;
+    background-color: rgba(230, 83, 60, 1);
     border-radius: 50%;
     position: absolute;
     top: 35%;
@@ -170,7 +173,7 @@ nav h3{
     line-height: 70px;
 }
 .section-2-style p{
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     line-height: 20px;
 }
@@ -196,7 +199,7 @@ nav h3{
     line-height: 40px;
 }
 .section-2-content p{
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
     line-height: 15px;
 }
@@ -207,7 +210,7 @@ nav h3{
     align-items: center;
     width: 80%;
     margin: 50px auto;
-    background-color: rgb(35, 34, 34);
+    background-color: rgba(34, 34, 34, 1);
     padding: 20px 0px;
     border-radius: 20px;
     gap: 100px;
@@ -224,14 +227,14 @@ nav h3{
     margin-bottom: 10px;
 }
 .section-3-content p{
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 13px;
     width: 400px;
     line-height: 25px;
     margin-bottom: 20px;
 }
 .btn-1{
-    background-color: tomato;
+    background-color: rgba(230, 83, 60, 1);
     padding: 15px 40px;
     width: 50%;
     color: white;
@@ -259,12 +262,12 @@ nav h3{
     line-height: 70px;
 }
 .section-4 p{
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     line-height: 20px;
 }
 .section-4-container{
-    background-color: rgb(28, 28, 28);
+    background-color: rgba(34, 34, 34, 1);
     padding: 30px;
     margin-bottom: 50px;
 }
@@ -281,9 +284,9 @@ table{
     margin-top: 50px;
 }
 table td{
-    border: 1px solid rgb(63, 61, 61);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     padding-left: 20px;
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
 }
 .tr-1 td{
@@ -291,7 +294,7 @@ table td{
     font-size: 100%;
 }
 .form p{
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
     line-height: 20px;
     margin-top: 10px;
@@ -308,7 +311,7 @@ table td{
     border-radius: 10px;
     padding: 13px 10px;
     color: rgb(129, 123, 123) ;
-    background-color: rgb(63, 61, 61);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .form-box-2{
     margin-top: 10px;
@@ -330,7 +333,7 @@ table td{
     font-weight: 900;
 }
 .section-5 p{
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     line-height: 20px;
     margin-top: 10px;
@@ -344,7 +347,7 @@ table td{
     padding: 20px;
     gap: 10px;
     border-radius: 20px;
-    background-color: rgb(28, 28, 28);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .section-5-content{
     position: relative;
@@ -358,7 +361,7 @@ table td{
     position: absolute;
     top: 83%;
     left: 5%;
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
 }
 .section-5-content img{
@@ -380,7 +383,7 @@ table td{
 .section-6-style p{
     width: 50%;
     margin: 0 auto;
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     line-height: 20px;
 }
@@ -394,22 +397,26 @@ table td{
 .section-6-content{
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(33, 31, 31);
-    box-shadow: 6px 6px 50px 6px rgb(27, 26, 26);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 50px 5px rgb(27, 26, 26);
 }
 .section-6-content img{
     width: 100%;
     height: 200px;
     border-radius: 5px;
 }
+.section-6-content h1{
+    margin-top: 15px;
+    line-height: 50px;
+}
 .section-6-content p{
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 13px;
     line-height: 20px;
 }
 /* footer style  */
 .footer{
-    background-color: rgb(27, 26, 26);
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 2PX;
 }
 .f-container{
@@ -424,242 +431,31 @@ table td{
     font-style: italic;
     line-height: 100px;
     font-weight: 900;
-    color: tomato;
+    color: rgba(230, 83, 60, 1);
 }
 .f-content p{
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 13px;
     line-height: 20px;
 }
 .f-item-1, .f-item-2{
-    width: 38%;
+    width: 70%;
 }
 .f-item-1 h2, .f-item-2 h2{
     margin-bottom: 40px;
 }
 .f-item-1 p, .f-item-2 p{
     font-size: 18px;
-    color: darkgray;
+    color: rgba(255, 255, 255, 0.5);
     margin-bottom: 20px;
 }
 .hr{
     width: 80%;
     margin: 0 auto;
-    color: rgb(64, 61, 61);
+    color: rgba(255, 255, 255, 0.5);
 }
 .f-p{
     text-align: center;
     margin: 50px;
-    color: darkgray;
-}
-@media screen and (max-width: 576px) {
-    /* nav style  */
-    nav{
-        display: flex;
-        justify-content: space-between;
-    }
-    nav a{
-        display: none;
-    }
-    nav h3{
-        font-size: 50px;
-    }
-    .icone{
-        display: block;
-        font-size: 30px;
-    }
-    /* banner style  */
-    .section-container{
-        margin: 0 auto;
-        width: 90%;
-    }
-    .new-section{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
-    }
-    .banner-img{
-        margin-left: 18px;
-    }
-    .banner-content h1{
-        font-size: 50px;
-        font-weight: 900;
-        line-height: 60px;
-    }
-    .banner-content p{
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .shape{
-        font-size: 100px;
-    } 
-    .n-btn{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .button{
-        padding: 22px 0px;
-        font-size: 18px;
-        margin-right: 30px;
-        width: 50%;
-    }
-    .button-2{
-        padding: 0px 0px;
-        font-size: 18px;
-        width: 50%;
-        height: 64px;
-        margin-top: 28px;
-    }
-    .b-img{
-        margin-left: 50px;
-    }
-    .play-button{
-        display: block;
-        position: absolute;
-        top: 51%;
-        left: 7.5%;
-        font-size: 20px;
-    }
-    /* card style  */
-    .container{
-    position: absolute;
-    top: 10%;
-    left: 55%;
-    }
-    .container-2{
-    position: absolute;
-    top: 45%;
-    left: 0%;
-    }
-   /* .section-2-style  */
-   .section-2-style{
-    width: 95%;
-   }
-   .section-2-style p{
-    font-size: 20px;
-    line-height: 30px;
-   }
-   .section-2-container{
-    width: 60%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    }
-    .section-2-content h3{
-        font-size: 20px;
-    }
-    .section-2-content p{
-        font-size: 17px;
-        line-height: 20px;
-    }
-    .section-2-content{
-        width: 100%;
-    }
-    /* section-3 style  */
-    .section-3{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 50px;
-        width: 90%;
-     }
-     .section-3-content p{
-        width: 90%;
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .btn-1{
-        width: 90%;
-        height: 60px;
-        font-size: 30px;
-    }
-    /* .section-4-style */
-    .section-4{
-        width: 90%;
-    }
-    .section-4 p{
-        font-size: 18px;
-        line-height: 30px;
-    }
-    .section-4-content{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-        gap: 50px;
-    }
-    table{
-        width: 100%;
-    }
-    .tr-1 td{
-        font-size: 20px;
-    }
-    table td{
-        font-size: 100%;
-    }
-    .form p{
-        font-size: 18px;
-        line-height: 30px;
-    }
-    .form-box input{
-        width: 90%;
-        height: 35px;
-        font-size: 20px;
-    }
-    .form-box-1{
-        width: 100%;
-        height: 60px;
-        font-size: 20px;
-    }
-    /* .section-5 style  */
-    .section-5{
-        width: 90%;
-    }
-    .section-5 p{
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .section-5-container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    /* section-6 style uniq section  */
-    .section-6-style p{
-        width: 90%;
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .section-6-container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 90%;
-    }
-    .section-6-content p{
-        font-size: 18px;
-        line-height: 30px;
-    }
-    /* footer style  */
-    .f-container{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .f-content p{
-        font-size: 18px;
-        line-height: 30px;
-    }
-    .f-item-1, .f-item-2{
-        width: 100%;
-        font-size: 30px;
-        margin-left: 0px;
-    }
-    .f-item-1 p, .f-item-2 p{
-        font-size: 30px;
-    }
-    .hr{
-        width: 90%;
-    }
-    .f-p{
-        text-align: start;
-        margin: 50px 20px;
-        font-size: 23px;
-    }
+    color: rgba(255, 255, 255, 0.5);
 }
